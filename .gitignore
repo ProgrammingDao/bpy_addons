@@ -1,0 +1,9 @@
+docs/build/*
+/.pytest_cache/
+/.mypy_cache/
+/.tox/
+/docs/build/
+/docs/source/_autosummary/
+/htmlcov/
+.coverage
+*.pyc

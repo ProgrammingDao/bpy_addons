@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bpy_addons"
+version = "0.0.0"
+description = "Addons for blender."
+authors = ["ProgrammingDao"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11.0"
+bpy = "3.4.0"
+fake-bpy-module-latest = "20221206"
+numpy = "^1.24.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.7"]
+build-backend = "poetry.core.masonry.api"
